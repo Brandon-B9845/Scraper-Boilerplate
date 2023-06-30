@@ -18,7 +18,7 @@ const writeFile = (title: string) => {
 
 const appendFile = (title: string, data: any) =>  {
     const cleanData = sanitize(data);
-    const formattedData: string = cleanData.join(";");
+    const formattedData: any = cleanData.join(";");
  fs.appendFileSync(title, formattedData.join(";") + "\n");
 }    
 
