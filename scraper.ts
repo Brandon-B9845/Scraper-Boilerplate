@@ -1,5 +1,4 @@
 import { chromium, firefox, webkit } from "playwright";
-import { appendFileSync, writeFileSync } from "fs";
 
 export async function main() {
   try {
