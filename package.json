@@ -1,0 +1,24 @@
+{
+  "name": "scraper-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-B9845/Scraper-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-B9845/Scraper-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Brandon-B9845/Scraper-Boilerplate#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  },
+  "dependencies": {
+    "playwright": "^1.35.1"
+  }
+}
